@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kwitter APP</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<script src="kwitter.js"></script>
+</head>
+<body background="1.webp">
+<div class="container">
+ 
+    <center>
+        <h1>Kwitter</h1>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <img src="logo.webp" width="10%" class="logo">
+		<h3>Join kwitter today for exciting things</h3>
+		<h4 >See what is happening in the world right now</h4>
+		<div class="form-group">
+        <br>
+        <br>
+        <span>
+        <label>User Name</label>
+        <br>
+        <input id="user_name" placeholder="User Name" type="text">
+    </span>
+    <br>
+    <br>
+    <button id="send" onclick="addUser()" type="button" width="30%" class="btn btn-primary">send</button>
+    </center>
+
+</div>
+
+</body>
+</html>
